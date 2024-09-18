@@ -1,0 +1,3 @@
+html attributes are pre built in  pieces of code that provide tags, src=url height=100x width=100x alt=learnAttributes.png
+NEED 2 WRITE IMPORTANT MESSAGES ON SOURCE CONTROL
+common attributes used 2 edit things
