@@ -3,26 +3,15 @@
 <head>
 <title>CSS Grid</title>
 </head>
-<body>
-
 <style>
-.grid-container {}
-
-.example {
-    background-color: blue;
-    height: 100px;
-    Width: 100px;
-
-
-}
-
-</head>
-</style>
-
-
+.grid-container {
 display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #21f33d;
   padding: 10px;
 }
 .grid-item {
@@ -32,26 +21,33 @@ display: grid;
   font-size: 30px;
   text-align: center;
 }
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+
 </style>
 </head>
 <body>
 
-<h1>Grid Elements</h1>
-
-<p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
-
-<p>Direct child element(s) of the grid container automatically becomes grid items.</p>
 
 <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-  <div class="grid-item">9</div>  
+  <div class="grid-item">Header</div>
+  <div class="grid-item">Menu</div>
+  <div class="grid-item">Main</div>  
+  <div class="grid-item">Right</div>
+  <div class="grid-item">Footer</div>
 </div>
 
 </body>
