@@ -5,8 +5,7 @@
 # strings = any characters wrapped in qoutes
 #boolean = true and flase 
 
-
-# we output data using the pring function
+ # we output data using the pring function
 print(200 * 8)
 print('welcome to python.')
 
