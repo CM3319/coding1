@@ -31,3 +31,35 @@ valB=20
 print(valA + valB)
 
 
+# python vairables are just containers for data
+
+email= 12345@gmail.com # string data type
+
+checking=2000000000.85 # float data type 
+
+Did You Get The Flu Shot=True # boolean data type
+
+userLogin_passowrdRest_premuimMember =''
+
+user_password =''
+
+discount25= .25
+
+# camel case = every word after the first word is capitalized
+
+loginname=''
+
+resetPasswordCode =''
+
+# snake case = when naming a variable every word after
+# the first word is spaced out with an undersocre.
+
+Login_name=''
+
+reset_PasswordCode=''
+
+# Pascal Case = when naming a variable, every
+# new word is capitalized'
+
+LoginName= ''
+ResetPasswordCode=''
