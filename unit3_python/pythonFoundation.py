@@ -47,7 +47,7 @@ discount25= .25
 
 # camel case = every word after the first word is capitalized
 
-loginname=''
+loginName=''
 
 resetPasswordCode =''
 

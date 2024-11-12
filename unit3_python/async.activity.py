@@ -1,24 +1,30 @@
 
 print(Welcome to async assignment )
 
-rules= use variables for the data youre holding,keep names short and simple,use plural nouns like students
-
 1. string concatention is combining strings
-ex: name 'Chris martin'
+StoryA='i will be going to'
+location='New york'
+time='8:00'
+print(StoryA + Location + time)
 
-
+use variables for the data youre holding,keep names short and simple,use plural nouns like students
 
 Camel case is after every word its capitalized
-ex: loginName
+loginName
 
 Snake case is when naming a variable every word after
  the first word is spaced out with an undersocre.
  ex:Login_name
 
  pascal case is every new word is always capitalized
- ex:LoginName
+ LoginName
 
+a='3'
+
+b= 3 * 100
 
 print(3 * 100)
 
-x=True
+print( 10> and 1 4== 4)
+
+x=True 
