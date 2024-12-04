@@ -36,5 +36,16 @@ def customNameFunction(Chris):
         else:
             print('sorry you can not buy gta')
 
-            verifyAge(16)
+            verifyAge
 
+
+
+
+
+    def hoursToMinutes(hour):
+    print(' minutes: ')
+    print(hour * 60 )
+
+   # argument - real data inside of the function call.
+   
+    hoursToMinutes(3)
