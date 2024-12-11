@@ -5,12 +5,11 @@ def reverse_word(word):
     print(reverse_word("cheese"))
     print(reverse_word("bread"))
 
-    def state_landmark(state):
-        landmarks = {
-
-
+    def landmarkByState(state):
+        if state== 'FL'
+print('a landmark in florida is the walt disney world')
 
 
 
             
-        }
+    
