@@ -12,7 +12,7 @@ def titleBySchoolYear(year):
     elif year == 2:    
         print('i am a sophomore')
     elif year == 3:
-        print('i am a junior')
+        print('i am a junior') 
     elif year == 4
         print(' i am a senior')    
     elif year == 5 or year == 6 :
@@ -26,5 +26,12 @@ def titleBySchoolYear(year):
 
 titleBySchoolYear(8)
 
+# lists are a datatype for collecting and grouping together
+# other pieces of data 
+
+# we create lists using the square brackets []
 
 groceryList= ['greens,pizza,meats']
+
+educationStatus= ['freshman','sophomore','junior','senior']
+print(educationStatus[2 ]) 
