@@ -1,0 +1,9 @@
+The key game elements are shooting 
+
+The player interact in the game by killing the people and aliens 
+
+The visuals are a pixelated 2d game, the animations are a right to left to up and down movement game , first person shoooting
+
+the player is trying to get a highest score possbile
+
+you walk around a building exploring different places and find random weapons
